@@ -1,0 +1,13 @@
+{
+  "name": "wait-for-me-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Wait For Me - real-time two-device prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
