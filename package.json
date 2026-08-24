@@ -2,12 +2,17 @@
   "name": "wait-for-me-v2",
   "version": "2.0.0",
   "private": true,
-  "description": "Wait For Me - real-time two-device prototype",
+  "description": "Wait For Me \u2014 real-time couple watch notification prototype",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.18.3"
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
